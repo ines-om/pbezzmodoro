@@ -11,8 +11,6 @@ Pomodoro Pixel Timer is a **custom Pomodoro app** built with **React and Electro
 - **Smooth UI & Controls**: Pause, reset, and manually start breaks or study sessions.
 
 ## 🛠️ Installation
-
-### Option 1
 1. Clone the repository:
    - git clone https://github.com/ines-om/pixel-pomodoro
    - cd pixel-pomodoro
@@ -22,9 +20,6 @@ Pomodoro Pixel Timer is a **custom Pomodoro app** built with **React and Electro
 
 3. Run the app:
      - npm run electron:dev
-  
-### Option 2
-Download installer.
 
 ## 🔧 Technologies Used
 - React (Frontend UI)
