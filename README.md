@@ -21,6 +21,17 @@ Pomodoro Pixel Timer is a **custom Pomodoro app** built with **React and Electro
 3. Run the app:
      - npm run electron:dev
 
+## 📦 Packaging & Distribution
+To create a **standalone** version of the app:
+
+1️⃣ Build the React App 
+   - npm run build
+
+2️⃣ Package the App
+Using Electron Packager:
+   - npx electron-packager . PixelPomodoro --platform=win32 --arch=x64 --out=release-build --overwrite
+     
+
 ## 🔧 Technologies Used
 - React (Frontend UI)
 - Electron (Desktop App Framework)
@@ -36,14 +47,15 @@ Pomodoro Pixel Timer is a **custom Pomodoro app** built with **React and Electro
 
 
 ## ❓ How to Use
+Set Study & Break Durations and Number of Rounds.
 Select Your Character from the animated carousel.
-Set Study & Break Durations.
 Click Start to begin the Pomodoro session.
-The character will animate during your study and break phases.
-Use Pause, Reset, or Manual Start to control the timer.
+The character animation will play during your study and break phases.
+Use Pause, Reset, and Manual Start to control the timer.
 
 ## 🛠️ Customization
 Modify the character frames in /assets/ to add new animations.
+
 Adjust the window settings in main.js for transparency, resizing, or always-on-top behaviour.
 
 ## 👨‍💻 Author
