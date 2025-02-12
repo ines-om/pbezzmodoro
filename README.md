@@ -12,8 +12,8 @@ Pomodoro Pixel Timer is a **custom Pomodoro app** built with **React and Electro
 
 ## 🛠️ Installation
 1. Clone the repository:
-   - git clone https://github.com/yourusername/pomodoro-pixel-timer.git
-   - cd pomodoro-pixel-timer
+   - git clone [https://github.com/yourusername/pomodoro-pixel-timer.git](https://github.com/ines-om/pbezzmodoro)
+   - cd pbezzmodoro
      
 2. Install dependencies:
   - npm install
