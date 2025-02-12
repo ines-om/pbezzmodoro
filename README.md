@@ -30,8 +30,8 @@ Pomodoro Pixel Timer is a **custom Pomodoro app** built with **React and Electro
 - Node.js & IPC (Electron communication)
 
 ## 📸 Screenshots
-![Pomodoro Timer UI - Character Selection](https://i.imgur.com/SLCpNj7.png)
-![Pomodoro Timer UI - Pomodoro Timer](https://i.imgur.com/dOVDOWE.png)
+![Pomodoro Timer UI - Character Selection](https://i.imgur.com/SLCpNj7.png) ![Pomodoro Timer UI - Pomodoro Timer](https://i.imgur.com/dOVDOWE.png)
+
 
 ## ❓ How to Use
 Select Your Character from the animated carousel.
@@ -40,7 +40,7 @@ Click Start to begin the Pomodoro session.
 The character will animate during your study and break phases.
 Use Pause, Reset, or Manual Start to control the timer.
 
-🛠️ Customization
+## 🛠️ Customization
 Modify the character frames in /assets/ to add new animations.
 Adjust the window settings in main.js for transparency, resizing, or always-on-top behaviour.
 
