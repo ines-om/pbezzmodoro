@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+html {
+    margin: 0px;
+}
+
+.carousel-control-prev img,
+.carousel-control-next img {
+    width: 50px;
+    opacity: 100%;
+    margin:0px;
+    padding: 0px;
+}
+
+
+.char {
+    height: 220px;
+    width: auto; /* Make sure the images don't overflow */
+    margin: 0px;
+    padding: 0px;
+}
+
+.charName {
+    font-family: "Pixelify Sans", serif;
+    font-weight: 10;
+    color: #fff;
+    opacity: 50%;
+    margin: 0px;
+    padding: 0px;
+}
+.carousel-inner {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    height: 100%; /* Make the inner container take full height */
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    
+}
+
+.carousel-item {
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+    height: 100%;
+    width: auto;
+    transition: transform 0.7s ease, opacity 0.5s ease-in-out;
+    padding: 0px;
+}
+
+.carousel-item img {
+    max-height: 100%; /* Ensure the images scale correctly */
+    object-fit: contain; /* Maintain aspect ratio */
+    width: 100%; /* Ensure images fill the container width */
+}
+
+.carousel-item h1 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #fff; /* Adjust text color as needed */
+}
+
+.carousel-item.active {
+    display: flex; /* Show only the active item */
+}
+
+.carousel-item {
+    display: none; /* Hide all items by default */
+}
+
+.carousel-control-next, .carousel-control-prev {
+    height: 280px; 
+}

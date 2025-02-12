@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Pixelify+Sans:wght@400..700&display=swap');
+
+html{
+    margin: -50px;
+    background-color: #302E26;
+}
+
+body {
+    margin: 0px;
+}
+
+#root{
+    background-color: #78C3FB;
+    padding: 0px;
+}
+
+.home {
+    background-color: #302E26;
+    height: 400px;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+}
+
+div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.title {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+    color: #78C3FB;
+    padding: 1%;
+    margin: 0px;
+}
+
+.choice {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subtitle {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0px;
+    color: #FFFFFF;
+    width: 100px;
+}
+
+.form {
+    width: 170px;           
+    height: 40px;
+    line-height: 20px;            
+    overflow-y: auto;         
+    max-height: 100px;        
+    border: 3px solid #364958;
+    margin-left: 10px;
+
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    padding: 0px;
+}
+
+.form option {
+    padding: 2px 4px;         
+}
+
+.continueButton {
+    margin-top: 20px;
+    width: 160px;
+    height: 60px;
+    background-color: #78C3FB;
+    font-family: "Pixelify Sans", serif;
+    font-size: 25px;
+    color: #302E26;
+    margin-bottom: 0px;
+    text-decoration: none;
+}

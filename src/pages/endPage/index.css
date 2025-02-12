@@ -1,0 +1,43 @@
+.endPage{
+    height: 400px;
+    background-color:#302E26 ;
+    margin:0px;
+    padding: 0px;
+    color: #fff;
+    font-family: "Pixelify Sans", serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.endText {
+    font-size: 45px;
+    width: 400px;
+    margin: 0px;
+    line-height: 40px;
+}
+
+.endSubText {
+    margin-top: -20px;
+}
+
+.continueButton3 {
+    width: 120px;
+    height: 50px;
+    background-color: #78C3FB;
+    font-family: "Pixelify Sans", serif;
+    font-size: 25px;
+    color: #302E26;
+    margin-bottom: 0px;
+    text-decoration: none;
+    align-content: center;
+    margin: 10px;
+}
+
+.doggo {
+    height: 120px;
+    margin: 10px;
+    border: solid #78C3FB 6px;
+}

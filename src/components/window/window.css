@@ -1,0 +1,20 @@
+.custom-title-bar {
+    height: 35px;
+    background-color: #78C3FB;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    margin: 0px;
+    padding: 0px 5px;
+    -webkit-app-region: drag;
+    cursor: grab;
+}
+
+.window-btn {
+    height: 30px;
+    width: 30px;
+    margin: 0px 5px;
+    margin-top: -7px;
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.pomodoro-container {
+    color: #fff;
+    font-family: "Pixelify Sans", serif;
+    background-color: #302E26;
+    height: 400px;
+}
+
+.char-animation {
+    height: 220px;
+    padding: 0px;
+    margin-top: -35px;
+    margin-bottom: -40px;
+}
+
+.act {
+    font-size: 32px;
+    padding: 0px;
+    margin-top: -5px;
+}
+
+.rounds {
+    font-family:"Jersey 15", serif;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-weight: 100;
+}
+
+.countdown {
+    font-family: "Jersey 15", serif;
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0px;
+    padding:0px;
+    margin-bottom: -25px;
+}
+
+.timer-controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.timerbut {
+    margin: 0px 15px;
+    width: 150px;
+    height: 40px;
+    background-color: #78C3FB;
+    color:#242331;
+    font-size: 21px;
+}

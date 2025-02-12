@@ -1,0 +1,36 @@
+.charChoice{
+    background-color: #302E26;
+    height: 400px;
+}
+
+.fight {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #78C3FB;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+
+h2 {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.continueButton2{
+    width: 160px;
+    height: 60px;
+    background-color: #78C3FB;
+    font-family: "Pixelify Sans", serif;
+    font-size: 25px;
+    color: #302E26;
+    margin: 0px;
+    text-decoration: none;
+    pointer-events: auto; /* Ensures it's clickable */
+    cursor: pointer;
+}
