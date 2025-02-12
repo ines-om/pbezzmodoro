@@ -30,7 +30,10 @@ Pomodoro Pixel Timer is a **custom Pomodoro app** built with **React and Electro
 - Node.js & IPC (Electron communication)
 
 ## 📸 Screenshots
-![Pomodoro Timer UI - Character Selection](https://i.imgur.com/SLCpNj7.png) ![Pomodoro Timer UI - Pomodoro Timer](https://i.imgur.com/dOVDOWE.png)
+![Pomodoro Timer UI - HomePage]([https://i.imgur.com/SLCpNj7.png](https://i.imgur.com/TBVRmkH.png)) 
+![Pomodoro Timer UI - Character Selection](https://i.imgur.com/SLCpNj7.png) 
+![Pomodoro Timer UI - Pomodoro Timer](https://i.imgur.com/dOVDOWE.png)
+
 
 
 ## ❓ How to Use
