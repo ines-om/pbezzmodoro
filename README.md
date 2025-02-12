@@ -49,6 +49,7 @@ Adjust the window settings in main.js for transparency, resizing, or always-on-t
 
 ## 👨‍💻 Author
 Created by Inês O. Martins
+
 GitHub: @ines-om
 
 ## 📜 License
