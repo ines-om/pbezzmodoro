@@ -1,0 +1,73 @@
+{
+  "name": "pbezzmodoro",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Inês O. Martins",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron:dev": "cross-env NODE_ENV=development concurrently \"npm start\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron:build": "rimraf dist && npm run build && electron-builder"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@electron/packager": "^18.3.6",
+    "concurrently": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "electron": "^34.1.1",
+    "electron-builder": "^25.1.8",
+    "electron-winstaller": "^5.4.0",
+    "rimraf": "^5.0.1",
+    "wait-on": "^8.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1"
+  },
+  "homepage": "./",
+  "build": {
+    "asar": false,
+    "appId": "pbezzmodoro",
+    "productName": "Pbezzmodoro",
+    "directories": {
+      "output": "dist",
+      "buildResources": "assets"
+    },
+    "files": [
+      "build/**/*",
+      "main.js",
+      "preload.js",
+      "node_modules/**/*",
+      "public/assets/**/*",
+      "assets/**/*"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "public/assets/icon.ico"
+    },
+    "mac": {
+      "category": "public.app-category.utilities"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
